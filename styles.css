@@ -1,0 +1,141 @@
+* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and General Layout */
+body {
+    font-family: bold,'Times New Roman';
+    line-height: 1.6;
+    color: black;
+    background-color: red;
+        font-family: "bold", calibri;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+
+
+/* Container for centralized content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container img{
+    width: 400px;
+    height:500px;
+}
+
+/* Header Section */
+header {
+    background-color:white;
+    color:#8B8000;
+    padding: 60px 0; 
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 4.5em;
+    color:black ;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Event Details Section */
+.event-details {
+    padding: 30px 0;
+    background-color:red;
+}
+
+.event-details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.event-details p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.event-details img {
+    display: block;
+    max-width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+/* Tickets Section */
+.tickets {
+    padding: 40px 0;
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+.tickets h2 {
+    margin-bottom: 10px;
+}
+.tickets p{
+    margin-bottom: 10px;
+}
+
+.tickets .btn {
+    padding: 10px 20px;
+    margin-bottom: 100px;
+    background-color:bla;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.Pre-Book {
+    text-align: center;
+}
+.tickets .btn:hover {
+    background-color: green;
+}
+
+
+/* Contact Section */
+.contact {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact ul {
+    list-style: none;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.contact ul li {
+    margin: 20px 0;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px ;
+    text-align: center;
+}
